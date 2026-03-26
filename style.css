@@ -1,0 +1,26 @@
+body {
+font-family: Arial;
+background: linear-gradient(to right, blue, purple);
+color: white;
+}
+
+nav a {
+color: white;
+margin: 10px;
+}
+
+nav a:hover {
+color: yellow;
+}
+
+p::first-letter {
+font-size: 30px;
+}
+
+input:focus {
+border: 2px solid red;
+}
+
+table tr:nth-child(even) {
+background: gray;
+}
